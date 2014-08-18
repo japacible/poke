@@ -1,8 +1,8 @@
 var poke = function() {
   var pokeables;
 
-  if (window.location.href.indexOf("touch") > 0 ||
-  		window.location.href.indexOf("m") > 0) {
+  if (window.location.href.indexOf("touch.facebook.com") > 0 ||
+  		window.location.href.indexOf("m.facebook.com") > 0) {
   	pokeables = $('#poke_area a:contains("Poke Back")');
   } else {
   	pokeables = $('#content a:contains("Poke Back")');
