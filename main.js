@@ -1,5 +1,12 @@
 var poke = function() {
-  var pokeables = $('#content a:contains("Poke Back")');
+  var pokeables;
+
+  if (window.location.href.indexOf("touch") > 0 ||
+  		window.location.href.indexOf("m") > 0) {
+  	pokeables = $('#poke_area a:contains("Poke Back")');
+  } else {
+  	pokeables = $('#content a:contains("Poke Back")');
+  }
 
   if (pokeables.length > 0) {
     for (var i = 0, max = pokeables.length; i < max; i++) {
