@@ -5,12 +5,8 @@
   "description": "Automate poking.",
   "content_scripts": [{
     "matches": [
-      "http://www.facebook.com/pokes*",
-      "https://www.facebook.com/pokes*",
-      "http://touch.facebook.com/pokes*",
-      "https://touch.facebook.com/pokes*",
-      "http://m.facebook.com/pokes*",
-      "https://m.facebook.com/pokes*"],
+      "http://*.facebook.com/pokes*",
+      "https://*.facebook.com/pokes*"],
     "js": ["jquery.min.js", "main.js"],
     "run_at": "document_end",
     "all_frames": true
