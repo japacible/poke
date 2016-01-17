@@ -1,6 +1,6 @@
 {
-  "name": "FB Poking",
-  "version": "0.1",
+  "name": "Auto Poking",
+  "version": "1.0",
   "manifest_version": 2,
   "description": "Automate poking.",
   "content_scripts": [{
